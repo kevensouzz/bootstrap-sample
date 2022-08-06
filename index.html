@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Usando Bootstrap :D</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon.ico">
+    <link rel="manifest" href="icon/site.webmanifest">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="p-3" id="header">
+        <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <a href="/" class="d-flex align-items-center mb-5 mb-lg-0 text-white text-decoration-none">
+                </a>
+
+                <ul class="nav col-12 col-lg-auto me-lg-auto mb-3 justify-content-center mb-md-0">
+                  <li><a href="#custom-cards" class="nav-link px-2 text-white">Cards</a></li>
+                    <li><a href="#hanging-icons" class="nav-link px-2 text-white">Features</a></li>
+                    <li><a href="#icon-grid" class="nav-link px-2 text-white">Pricing</a></li>
+                    <li><a href="#footer" class="nav-link px-2 text-white">Footer</a></li>
+                </ul>
+
+                <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+                    <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="search for dwarves..."
+                        aria-label="Search">
+                </form>
+
+                <div class="text-end">
+                    <button type="button" class="btn btn-outline-light me-2" data-bs-toggle="modal" data-bs-target="#Login">Login</button>
+                    <button type="button" class="btn btn-outline-light me-2" data-bs-toggle="modal" data-bs-target="#Sign-up">Sign-up</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <div class="container py-5 mb-5" id="custom-cards">
+      <h2 class="pb-2 d-flex justify-content-center">CUSTOM CARDS</h2>
+  
+      <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"  style="background-image: url('images/unsplash-photo-1.jpg');">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <h2 class="pt-5 mt-5 mb-5 display-6 lh-1 fw-bold" id="lua">She's Beautiful As The Moon...</h2>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('images/unsplash-photo-2.jpg');">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <h2 class="pt-5 mt-5 mb-5 display-6 lh-1 fw-bold" id="girassol">Glamorous Like A Beautiful Sunflower...</h2>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('images/unsplash-photo-3.jpg');">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+              <h2 class="pt-5 mt-5 mb-5 display-6 lh-1 fw-bold" id="california">...Hot As An Ember Fire!</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container py-5 mb-5" id="hanging-icons">
+        <h2 class="pb-2 d-flex justify-content-center">HANGING ICONS</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="col d-flex align-items-start">
+            <div class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            </div>
+            <div>
+              <h2>Featured title</h2>
+              <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+              <a href="#" class="btn btn-outline-light">
+                Primary button
+              </a>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            </div>
+            <div>
+              <h2>Featured title</h2>
+              <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+              <a href="#" class="btn btn-outline-light">
+                Primary button
+              </a>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            </div>
+            <div>
+              <h2>Featured title</h2>
+              <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+              <a href="#" class="btn btn-outline-light">
+                Primary button
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container py-5 mb-5" id="icon-grid">
+        <h2 class="pb-2 d-flex justify-content-center">ICON GRID</h2>
+    
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+          <div class="col d-flex align-items-start">
+            <div>
+              <h4 class="fw-bold mb-0">Featured title</h4>
+              <p>Paragraph of text beneath the heading to explain the heading.</p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div>
+              <h4 class="fw-bold mb-0">Featured title</h4>
+              <p>Paragraph of text beneath the heading to explain the heading.</p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div>
+              <h4 class="fw-bold mb-0">Featured title</h4>
+              <p>Paragraph of text beneath the heading to explain the heading.</p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div>
+              <h4 class="fw-bold mb-0">Featured title</h4>
+              <p>Paragraph of text beneath the heading to explain the heading.</p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div>
+              <h4 class="fw-bold mb-0">Featured title</h4>
+              <p>Paragraph of text beneath the heading to explain the heading.</p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div>
+              <h4 class="fw-bold mb-0">Featured title</h4>
+              <p>Paragraph of text beneath the heading to explain the heading.</p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div>
+              <h4 class="fw-bold mb-0">Featured title</h4>
+              <p>Paragraph of text beneath the heading to explain the heading.</p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div>
+              <h4 class="fw-bold mb-0">Featured title</h4>
+              <p>Paragraph of text beneath the heading to explain the heading.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container" id="footer">
+        <footer class="d-flex justify-content-center align-items-center py-3 border-top">
+            <span>© 2022 @kevensouzz</span>
+        </footer>
+      </div>
+
+      <div class="modal fade" id="Sign-up" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">CADASTRO >>></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              INTERESSADO EM CONTRABANDO DE PIGMEUS ANGOLANOS E NIERIANOS MEU JOVEM?
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No, Close!</button>
+              <button type="button" class="btn btn-primary">Yeah, Go!</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="Login" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">LOGIN >>></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="modal-body">
+              JÁ ERES UN CONTRABANDISTA DE PIGMEUS, BRO?
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No, Sign-up!</button>
+              <button type="button" class="btn btn-primary">Yeah, Next!</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

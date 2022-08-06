@@ -1,0 +1,73 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #252525;
+    color: #ffffff;
+}
+
+.form-control:focus {
+    box-shadow: white 0px 0px 5px;
+    border: white 1px solid;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+#header {
+    background-color: #252525;
+}
+
+.modal-body {
+    color: #000000;
+}
+
+.modal-title {
+    color: #000000;
+}
+
+.card {
+    background: center;
+    cursor: pointer;
+    filter: opacity(75%);
+}
+
+.card:hover {
+    filter: opacity(100%);
+    transform: scale(0.99);
+    transition: 0.3s linear;
+}
+
+.card h2 {
+    filter: opacity(50%);
+}
+
+.card h2:hover {
+    filter: opacity(100%);
+    transform: scale(0.99);
+    transition: 0.3s linear;
+}
+
+#lua:hover {
+    color: magenta;
+}
+
+#girassol:hover {
+    color: green;
+}
+
+#california:hover {
+    color: red;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background: #252525;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: #646464;
+}
