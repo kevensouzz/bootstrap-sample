@@ -2,6 +2,6 @@
 
 <div align="center">
 
-![Design preview for the NFT preview card component coding challenge](images/CONTRABANDO%20DE%20PIGMEUS!%20-%20Google%20Chrome%2005_08_2022%2022_31_34.png)
+![Design preview for the project](images/CONTRABANDO-DE-PIGMEUS_-Google-Chrome-05_08_2022-22_31_34.jpg)
 
 </div>
