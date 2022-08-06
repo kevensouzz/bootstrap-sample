@@ -72,6 +72,10 @@ body { cursor: default;
     color: green;
 }
 
+#california {
+    background: bottom 0%;    
+}
+
 #california:hover {
     color: red;
 }
