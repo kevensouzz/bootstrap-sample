@@ -29,6 +29,7 @@ body {
 }
 
 .card {
+    transition: 0.5s linear;
     letter-spacing: 1px;
     background: center;
     cursor: pointer;
@@ -38,17 +39,16 @@ body {
 .card:hover {
     filter: opacity(100%);
     transform: scale(0.99);
-    transition: 0.3s linear;
 }
 
 .card h2 {
+    transition: 0.5s linear;
     filter: opacity(50%);
 }
 
 .card h2:hover {
     filter: opacity(100%);
     transform: scale(0.99);
-    transition: 0.3s linear;
 }
 
 #lua:hover {
