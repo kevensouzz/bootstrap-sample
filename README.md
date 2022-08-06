@@ -1,4 +1,4 @@
-# Frontend Mentor - NFT preview card component
+# Fixação de aprendizado em bootstrap
 
 <div align="center">
 
