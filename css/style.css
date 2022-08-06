@@ -2,7 +2,7 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
+body { cursor: default;
     background: #252525;
     color: #ffffff;
 }
@@ -59,9 +59,10 @@ body {
     cursor: default;
 }
 
-.anoes p {
+.anoes p, .socialmedia p {
     font-size: 14px;
 }
+
 
 #lua:hover {
     color: magenta;
