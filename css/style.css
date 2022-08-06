@@ -2,7 +2,8 @@ html {
     scroll-behavior: smooth;
 }
 
-body { cursor: default;
+body {
+    cursor: default;
     background: #252525;
     color: #ffffff;
 }
@@ -59,7 +60,8 @@ body { cursor: default;
     cursor: default;
 }
 
-.anoes p, .socialmedia p {
+.anoes p,
+.socialmedia p {
     font-size: 14px;
 }
 
@@ -73,7 +75,7 @@ body { cursor: default;
 }
 
 #california {
-    background: bottom 0%;    
+    background: bottom 0%;
 }
 
 #california:hover {
