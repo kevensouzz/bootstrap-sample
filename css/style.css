@@ -29,6 +29,7 @@ body {
 }
 
 .card {
+    letter-spacing: 1px;
     background: center;
     cursor: pointer;
     filter: opacity(75%);
