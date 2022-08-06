@@ -11,6 +11,9 @@ body {
     box-shadow: white 0px 0px 5px;
     border: white 1px solid;
 }
+.btn {
+    transition: 0.3s linear;
+}
 
 .btn:focus {
     box-shadow: none;
