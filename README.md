@@ -1,4 +1,4 @@
-# Fixação de aprendizado em bootstrap
+# Fixação de aprendizado = bootstrap
 
 <div align="center">
 
