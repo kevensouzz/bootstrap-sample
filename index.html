@@ -2,216 +2,284 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Usando Bootstrap :D</title>
+  <title>Usando Bootstrap :D</title>
 
-    <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon.ico">
-    <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon.ico">
-    <link rel="manifest" href="icon/site.webmanifest">
+  <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon.ico">
+  <link rel="manifest" href="icon/site.webmanifest">
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <header class="p-3" id="header">
-        <div class="container">
-            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-                <a href="/" class="d-flex align-items-center mb-5 mb-lg-0 text-white text-decoration-none">
-                </a>
+  <header class="p-3" id="header">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <a href="/" class="d-flex align-items-center mb-5 mb-lg-0 text-white text-decoration-none">
+        </a>
 
-                <ul class="nav col-12 col-lg-auto me-lg-auto mb-3 justify-content-center mb-md-0">
-                  <li><a href="#custom-cards" class="nav-link px-2 text-white">Romantic Cards</a></li>
-                    <li><a href="#hanging-icons" class="nav-link px-2 text-white">Social Media</a></li>
-                    <li><a href="#icon-grid" class="nav-link px-2 text-white">Price of dwarves</a></li>
-                    <li><a href="#footer" class="nav-link px-2 text-white">Footer</a></li>
-                </ul>
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-3 justify-content-center mb-md-0">
+          <li><a href="#custom-cards" class="nav-link px-2 text-white">Romantic Cards</a></li>
+          <li><a href="#hanging-icons" class="nav-link px-2 text-white">Social Media</a></li>
+          <li><a href="#icon-grid" class="nav-link px-2 text-white">Dwarves</a></li>
+          <li><a href="#footer" class="nav-link px-2 text-white">Footer</a></li>
+        </ul>
 
-                <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
-                    <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="search for dwarves..."
-                        aria-label="Search">
-                </form>
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+          <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="search for dwarves..."
+            aria-label="Search">
+        </form>
 
-                <div class="text-end">
-                    <button type="button" class="btn btn-outline-light me-2" data-bs-toggle="modal" data-bs-target="#Login">Login</button>
-                    <button type="button" class="btn btn-outline-light me-2" data-bs-toggle="modal" data-bs-target="#Sign-up">Sign-up</button>
-                </div>
-            </div>
+        <div class="text-end">
+          <button type="button" class="btn btn-outline-light me-2" data-bs-toggle="modal"
+            data-bs-target="#Login">Login</button>
+          <button type="button" class="btn btn-outline-light me-2" data-bs-toggle="modal"
+            data-bs-target="#Sign-up">Sign-up</button>
         </div>
-    </header>
-    
-    <div class="container py-5 mb-5" id="custom-cards">
-      <h2 class="pb-2 d-flex justify-content-center">ROMANTIC CARDS</h2>
-  
-      <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
-        <div class="col">
-          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"  style="background-image: url('images/unsplash-photo-1.jpg');">
-            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-              <h2 class="pt-5 mt-5 mb-5 display-6 lh-1 fw-bold" id="lua">She's Beautiful As The Moon...</h2>
-            </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container py-5 mb-5" id="custom-cards">
+    <h2 class="pb-2 d-flex justify-content-center">ROMANTIC CARDS</h2>
+
+    <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+          style="background-image: url('images/unsplash-photo-1.jpg');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <h2 class="pt-5 mt-5 mb-5 display-6 lh-1 fw-bold" id="lua">She's Beautiful As The Moon...</h2>
           </div>
         </div>
-  
-        <div class="col">
-          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('images/unsplash-photo-2.jpg');">
-            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-              <h2 class="pt-5 mt-5 mb-5 display-6 lh-1 fw-bold" id="girassol">Glamorous Like A Beautiful Sunflower...</h2>
-            </div>
+      </div>
+
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+          style="background-image: url('images/unsplash-photo-2.jpg');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <h2 class="pt-5 mt-5 mb-5 display-6 lh-1 fw-bold" id="girassol">Glamorous Like A Beautiful Sunflower...</h2>
           </div>
         </div>
-  
-        <div class="col">
-          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('images/unsplash-photo-3.jpg');">
-            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-              <h2 class="pt-5 mt-5 mb-5 display-6 lh-1 fw-bold" id="california">...Hot As An Ember Fire!</h2>
-            </div>
+      </div>
+
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+          style="background-image: url('images/unsplash-photo-3.jpg');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+            <h2 class="pt-5 mt-5 mb-5 display-6 lh-1 fw-bold" id="california">...Hot As An Ember Fire!</h2>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <div class="container py-5 mb-5" id="hanging-icons">
-        <h2 class="pb-2 d-flex justify-content-center">SOCIAL MEDIA</h2>
-        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-          <div class="col d-flex align-items-start">
-            <div class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-            </div>
-            <div>
-              <h2>Instagram</h2>
-              <p>Inativo, mas não INATIVO, talvez num belo dia eu poste algo por lá, TALVEZ... Mas enquanto esse belo dia não chega, continuo inativo em relação a postagens.</p>
-              <a href="https://www.instagram.com/kevensouzz/" target="_blank" class="btn btn-outline-danger">
-                Instagram
-              </a>
-            </div>
-          </div>
-          <div class="col d-flex align-items-start">
-            <div class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-            </div>
-            <div>
-              <h2>Github</h2>
-              <p>Tentando estar sempre ativo, TENTANDO, Sempre que posso postando meus desafios do Front-End Mentor e outras bobeiras, tipo essa página.</p>
-              <a href="https://github.com/kevensouzz" target="_blank" class="btn btn-outline-primary">
-                GITHUB
-              </a>
-            </div>
-          </div>
-          <div class="col d-flex align-items-start">
-            <div class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-            </div>
-            <div>
-              <h2>Linkedin</h2>
-              <p>Assim como no Github, estou sempre TENTANDO ficar ativo no linkedin, interagindo com outros devs ou até postando as bobeiras que eu faço lá.</p>
-              <a href="https://www.linkedin.com/in/kevenssouza1/" target="_blank" class="btn btn-outline-info">
-                LINKEDIN
-              </a>
-            </div>
-          </div>
+  <div class="container py-5 mb-5" id="hanging-icons">
+    <h2 class="pb-2 d-flex justify-content-center">SOCIAL MEDIA</h2>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="col d-flex align-items-start">
+        <div
+          class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+        </div>
+        <div>
+          <h2>Instagram</h2>
+          <p>Inativo, mas não INATIVO, talvez num belo dia eu poste algo por lá, TALVEZ... Mas enquanto esse belo dia
+            não chega, continuo inativo em relação a postagens.</p>
+          <a href="https://www.instagram.com/kevensouzz/" target="_blank" class="btn btn-outline-danger">
+            Instagram
+          </a>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <div
+          class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+        </div>
+        <div>
+          <h2>Github</h2>
+          <p>Tentando estar sempre ativo, TENTANDO, Sempre que posso postando meus desafios do Front-End Mentor e outras
+            bobeiras, tipo essa página.</p>
+          <a href="https://github.com/kevensouzz" target="_blank" class="btn btn-outline-primary">
+            GITHUB
+          </a>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <div
+          class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+        </div>
+        <div>
+          <h2>Linkedin</h2>
+          <p>Assim como no Github, estou sempre TENTANDO ficar ativo no linkedin, interagindo com outros devs ou até
+            postando as bobeiras que eu faço lá.</p>
+          <a href="https://www.linkedin.com/in/kevenssouza1/" target="_blank" class="btn btn-outline-info">
+            LINKEDIN
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container py-5 mb-5" id="icon-grid">
+    <h2 class="pb-2 d-flex justify-content-center">DWARVES</h2>
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+      <div class="col d-flex align-items-start mb-4">
+        <div class="anoes">
+          <h4 class="fw-bold mb-2">Anão Bombado</h4>
+          <p>Diego akatsuki | 18 Anos | 187cm | 86kg | Lilás | Hermafrodita | Japão</p>
+          <a href="#" class="btn btn-outline-light" data-bs-toggle="modal"
+          data-bs-target="#buyanao">
+            COMPRAR
+          </a>
         </div>
       </div>
 
-      <div class="container py-5 mb-5" id="icon-grid">
-        <h2 class="pb-2 d-flex justify-content-center">PRICE OF DWARVES</h2>
-    
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
-          <div class="col d-flex align-items-start">
-            <div>
-              <h4 class="fw-bold mb-0">Featured title</h4>
-              <p>Paragraph of text beneath the heading to explain the heading.</p>
-            </div>
-          </div>
-          <div class="col d-flex align-items-start">
-            <div>
-              <h4 class="fw-bold mb-0">Featured title</h4>
-              <p>Paragraph of text beneath the heading to explain the heading.</p>
-            </div>
-          </div>
-          <div class="col d-flex align-items-start">
-            <div>
-              <h4 class="fw-bold mb-0">Featured title</h4>
-              <p>Paragraph of text beneath the heading to explain the heading.</p>
-            </div>
-          </div>
-          <div class="col d-flex align-items-start">
-            <div>
-              <h4 class="fw-bold mb-0">Featured title</h4>
-              <p>Paragraph of text beneath the heading to explain the heading.</p>
-            </div>
-          </div>
-          <div class="col d-flex align-items-start">
-            <div>
-              <h4 class="fw-bold mb-0">Featured title</h4>
-              <p>Paragraph of text beneath the heading to explain the heading.</p>
-            </div>
-          </div>
-          <div class="col d-flex align-items-start">
-            <div>
-              <h4 class="fw-bold mb-0">Featured title</h4>
-              <p>Paragraph of text beneath the heading to explain the heading.</p>
-            </div>
-          </div>
-          <div class="col d-flex align-items-start">
-            <div>
-              <h4 class="fw-bold mb-0">Featured title</h4>
-              <p>Paragraph of text beneath the heading to explain the heading.</p>
-            </div>
-          </div>
-          <div class="col d-flex align-items-start">
-            <div>
-              <h4 class="fw-bold mb-0">Featured title</h4>
-              <p>Paragraph of text beneath the heading to explain the heading.</p>
-            </div>
-          </div>
+      <div class="col d-flex align-items-start mb-4">
+        <div class="anoes">
+          <h4 class="fw-bold mb-2">Anão Pigarro</h4>
+          <p>Lehonny Iran | 14 Anos | 345cm | 89kg | Negromorfo | Nova Zelândia</p>
+          <a href="#" class="btn btn-outline-light" data-bs-toggle="modal"
+          data-bs-target="#buyanao">
+            COMPRAR
+          </a>
         </div>
       </div>
 
-      <div class="container" id="footer">
-        <footer class="d-flex justify-content-center align-items-center py-3 border-top">
-            <span>© 2022 @kevensouzz</span>
-        </footer>
-      </div>
+      <div class="col d-flex align-items-start mb-4">
+        <div class="anoes">
+          <h4 class="fw-bold mb-2">Anão Ibura</h4>
+          <p>João Negão | 22 Anos | 115cm | 70kg | -4% Gordura | Negromorfo | Madagascar</p>
+          <a href="#" class="btn btn-outline-light" data-bs-toggle="modal"
+          data-bs-target="#buyanao">
+            COMPRAR
+          </a>
+        </div>
 
-      <div class="modal fade" id="Sign-up" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">CADASTRO >>></h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              INTERESSADO EM CONTRABANDO DE PIGMEUS ANGOLANOS E NIERIANOS MEU JOVEM?
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No, Close!</button>
-              <button type="button" class="btn btn-primary">Yeah, Go!</button>
-            </div>
-          </div>
+      </div>
+      <div class="col d-flex align-items-start mb-4">
+        <div class="anoes">
+          <h4 class="fw-bold mb-2">Anão Ezure-Chan</h4>
+          <p>Esdras Vegeta | 13 Anos | Natural | Vegano | Alérgico a água | Dev html | Malásia</p>
+          <a href="#" class="btn btn-outline-light" data-bs-toggle="modal"
+          data-bs-target="#buyanao">
+            COMPRAR
+          </a>
         </div>
       </div>
 
-      <div class="modal fade" id="Login" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">LOGIN >>></h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-
-            <div class="modal-body">
-              JÁ ERES UN CONTRABANDISTA DE PIGMEUS, BRO?
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No, Sign-up!</button>
-              <button type="button" class="btn btn-primary">Yeah, Next!</button>
-            </div>
-          </div>
+      <div class="col d-flex align-items-start mb-4">
+        <div class="anoes">
+          <h4 class="fw-bold mb-2">Anão Paquita</h4>
+          <p>Carlos Bryan | 29 Anos | 140cm | 97kg | border-radius: 50% | Angola</p>
+          <a href="#" class="btn btn-outline-light" data-bs-toggle="modal"
+          data-bs-target="#buyanao">
+            COMPRAR
+          </a>
         </div>
       </div>
 
-    <script src="js/bootstrap.bundle.min.js"></script>
+      <div class="col d-flex align-items-start mb-4">
+        <div class="anoes">
+          <h4 class="fw-bold mb-2">Anão Burguês</h4>
+          <p>João Jorge | 21 Anos | 110cm | 40kg | Coca-Cola | Cancêr | Diabetes | Portugal</p>
+          <a href="#" class="btn btn-outline-light" data-bs-toggle="modal"
+          data-bs-target="#buyanao">
+            COMPRAR
+          </a>
+        </div>
+      </div>
+
+      <div class="col d-flex align-items-start mb-4">
+        <div class="anoes">
+          <h4 class="fw-bold mb-2">Anão Amido</h4>
+          <p>Amídio Milhão | 26 Anos | 400cm Acima do Everest | -26kg | Nigéria</p>
+          <a href="#" class="btn btn-outline-light" data-bs-toggle="modal"
+          data-bs-target="#buyanao">
+            COMPRAR
+          </a>
+        </div>
+      </div>
+
+      <div class="col d-flex align-items-start mb-4">
+        <div class="anoes">
+          <h4 class="fw-bold mb-2">Anão Pitoco</h4>
+          <p>Pitoquinho do Vale | 48 Anos | 2 Filhos | Servente de Pedreiro | Procurado</p>
+          <a href="#" class="btn btn-outline-light" data-bs-toggle="modal"
+          data-bs-target="#buyanao">
+            COMPRAR
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" id="footer">
+    <footer class="d-flex justify-content-center align-items-center py-3 pb-3 border-top">
+      <span>© 2022 @kevensouzz</span>
+    </footer>
+  </div>
+
+  <div class="modal fade" id="Sign-up" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">CADASTRO >>></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          INTERESSADO EM CONTRABANDO DE PIGMEUS ANGOLANOS E NIGERIANOS MEU JOVEM?
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No, Close!</button>
+          <button type="button" class="btn btn-primary">Yeah, Go!</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="Login" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">LOGIN >>></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+
+        <div class="modal-body">
+          JÁ ERES UN CONTRABANDISTA DE PIGMEUS, BRO?
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No, Sign-up!</button>
+          <button type="button" class="btn btn-primary">Yeah, Next!</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="buyanao" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">PRODUTO EXPIRADO :/</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+
+        <div class="modal-body">
+          ESTE ANÃO NÃO ESTÁ DIPONÍVEL!
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">OK, CLOSE!</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

@@ -55,6 +55,14 @@ body {
     transform: scale(0.99);
 }
 
+.anoes {
+    cursor: default;
+}
+
+.anoes p {
+    font-size: 14px;
+}
+
 #lua:hover {
     color: magenta;
 }
