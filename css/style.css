@@ -82,6 +82,10 @@ body {
     color: red;
 }
 
+#romantic-cards {
+    font-family: cursive;
+}
+
 ::-webkit-scrollbar {
     width: 10px;
     background: #252525;
