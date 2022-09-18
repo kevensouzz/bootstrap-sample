@@ -2,6 +2,8 @@
 
 <div align="center">
 
-![Design preview for the project](images/Usando-Bootstrap-_D-Google-Chrome-07_08_2022-20_30_19.jpg)
+![Design preview for the project](images/Captura%20de%20tela.jpg)
+
+![Design preview for the project](images/Captura%20de%20tela-mobile.jpg)
 
 </div>
