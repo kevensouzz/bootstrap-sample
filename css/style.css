@@ -8,6 +8,20 @@ body {
     color: #ffffff;
 }
 
+#card1 {
+    background: url('../images/unsplash-photo-1.jpg') no-repeat center center;
+}
+
+#card2 {
+    background: url('../images/unsplash-photo-2.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#card3 {
+    background: url('../images/unsplash-photo-3.jpg') no-repeat center center;
+    background-size: cover;
+}
+
 .form-control:focus {
     box-shadow: white 0px 0px 5px;
     border: white 1px solid;
