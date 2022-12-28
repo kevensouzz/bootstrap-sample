@@ -1,4 +1,4 @@
-## Fixação de aprendizado | bootstrap
+### Fixação de aprendizado | bootstrap
 
 ![Design preview for the project](images/screenshot.jpg)
 
